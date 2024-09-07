@@ -1,0 +1,90 @@
+#main-box{
+	opacity:0;
+	transform: translateY(50px);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+	margin: auto;
+	width: 50%;
+}
+
+#main-box.visible{
+	opacity:1;
+	transform: translateY(0px);
+}
+
+body{
+	background-color: #121212 !important;
+	font-family: "roboto", sans-serif;
+	font-weight: regular;
+	font-size: 20px;
+}
+
+main{
+	color:white;
+	height: 100vh;
+	align-items: center;
+}
+
+p{
+	white-space: pre-line;
+	line-height:1.3;
+	margin-bottom: 0 !important;
+}
+
+#main-box{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 50%;
+}
+
+.border{
+	border: 1px solid white
+}
+
+#avatar{
+	border: 2px solid white;
+	border-radius:50% !important;
+	width: 7rem !important;
+}
+
+.header{
+	margin-bottom: 3rem;
+}
+
+.hans::before{
+	content:" #"
+}
+
+.hans:hover{
+	transition: 0.2s ease-in;
+	text-decoration: underline;
+	color: #6A6A6A;
+	cursor:pointer;
+}
+
+.flags{
+	width: 2rem !important;
+	height:auto;
+	vertical-align: middle;
+}
+
+.logos{
+	width:16px !important;
+	max-width: 16px !important;
+}
+
+.social-link{
+	display: flex;
+	vertical-align: middle !important;
+	align-items: center !important;
+	gap: 8px;
+	color: white;
+	box-shadow: 0 0 0 1px #242424;
+}
+
+.social-link:hover{
+	box-shadow: 0 0 0 2px white;
+	transition: 0.3s;
+}
+
+.fs-7 {
+	font-size: 1rem;
+}
