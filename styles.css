@@ -2,7 +2,6 @@
 	opacity:0;
 	transform: translateY(50px);
 	transition: opacity 1s ease-out, transform 1s ease-out;
-	margin: auto;
 	width: 50%;
 }
 
@@ -96,6 +95,9 @@ p{
 @media screen and (max-width: 900px) {
 	#main-box{
 		width: 90%;
+		opacity: 1;
+		transform: none;
+		transition: none;
 	}
 
 	.shiki-container-list{
@@ -107,9 +109,9 @@ p{
 		display:none;
 	}
 
-	/* .philia-banner{ */
-	/* 	display: initial !important; */
-	/* 	width: 90% !important; */
-	/* 	margin-top:-5em !important; */
-	/* } */
+	.philia-banner{
+		display: initial !important;
+		margin-top: 5em !important;
+		width: 100% !important;
+	}
 }

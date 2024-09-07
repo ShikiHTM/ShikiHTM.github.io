@@ -4,3 +4,4 @@ document.addEventListener('DOMContentLoaded', function() {
 		mainBox.classList.add('visible');
 	}, 500)
 })
+
