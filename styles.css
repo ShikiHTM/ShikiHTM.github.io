@@ -30,6 +30,11 @@ p{
 	margin-bottom: 0 !important;
 }
 
+/* .philia-banner{ */
+/* 	width: 50% !important; */
+/* 	display: none; */
+/* } */
+
 #main-box{
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     width: 50%;
@@ -40,7 +45,6 @@ p{
 }
 
 #avatar{
-	border: 2px solid white;
 	border-radius:50% !important;
 	width: 7rem !important;
 }
@@ -87,4 +91,25 @@ p{
 
 .fs-7 {
 	font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+	#main-box{
+		width: 90%;
+	}
+
+	.shiki-container-list{
+		max-width:90%;
+		flex-wrap: wrap;
+	}
+
+	#avatar{
+		display:none;
+	}
+
+	/* .philia-banner{ */
+	/* 	display: initial !important; */
+	/* 	width: 90% !important; */
+	/* 	margin-top:-5em !important; */
+	/* } */
 }
