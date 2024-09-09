@@ -1,3 +1,5 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
 #main-box{
 	opacity:0;
 	transform: translateY(50px);
@@ -83,6 +85,22 @@ p{
 	box-shadow: 0 0 0 1px #242424;
 }
 
+.project::before{
+	font-family: "NerdFontsSymbols Nerd Font", sans-serif;
+	content:""
+}
+
+.project{
+	display: flex;
+	gap: 8px;
+	vertical-align: middle !important;
+	align-items: center !important;
+	color: white;
+	box-shadow: 0 0 0 1px #242424;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.25em;
+}
+
 .social-link:hover{
 	box-shadow: 0 0 0 2px white;
 	transition: 0.3s;
@@ -90,6 +108,25 @@ p{
 
 .fs-7 {
 	font-size: 1rem;
+}
+
+.fs-9 {
+	font-size: 0.825rem;
+}
+
+.repo-status{
+	border: max(1px, 0.0625rem) solid #242424;
+	border-radius: 2em;
+	padding: 2px 8px;
+}
+
+.pro-Til{
+	text-decoration: none;
+	color: white;
+}
+
+.pro-Til:hover{
+	text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
